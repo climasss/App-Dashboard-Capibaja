@@ -83,7 +83,7 @@ with col_central:
     st.markdown("---")
 
     # --- DOWNLOAD EXECUTÁVEL ---
-    st.write("### 📥 Versão de Telemetria (Executável)")
+    st.write("### 📥 Dashboard Telemetria (Executável)")
     link_do_drive = "https://drive.google.com/file/d/1FBRJhkp5cuMBoaAkVPEDiBnyB6nfp1VL/view?usp=drive_link"
 
     st.link_button(
