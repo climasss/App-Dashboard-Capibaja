@@ -25,7 +25,22 @@ with col_central:
     )
     st.markdown("---")
 
-    # --- LOCALIZAÇÃO DO HOTEL (NOVO) ---
+    st.write("### 🌐 Resultados Baja SAE Brasil")
+    st.link_button(
+        label = "Ver Resultados",
+        url="https://resultados.bajasaebrasil.net/",
+        use_container_width=True,
+    )
+    st.markdown("---")
+
+    st.write("### 👨‍⚕️🚑🏥 Fila ICTS")
+    st.link_button(
+        label = "Ver Fila",
+        url="https://fila.bajasaebrasil.net/fila.php?evento=26BR&fila=2",
+        use_container_width=True,
+    )
+    st.markdown("---")
+
     st.write("### 📍 Localização do Hotel")
     st.link_button(
         label = "Ver no Google Maps",
