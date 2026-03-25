@@ -222,7 +222,7 @@ with col_lateral_dir:
 
     # Comitê Técnico – Azul Royal
     st.markdown("""
-    <div style="border-right: 5px solid #4169E1; padding-right: 15px; margin-bottom: 15px; text-align: center;">
+    <div style="border-right: 5px solid #4169E1; padding-right: 15px; margin-bottom: 15px; text-align: right;">
         <h3>Comitê Técnico</h3>
         <p> Camiseta: Azul Royal</p>
     </div>
