@@ -70,85 +70,145 @@ with col_central:
     st.markdown("---")
 
     # --- REGULAMENTO ---
-    st.write("### 📄 Regulamento Nacional 2026")
+    st.markdown("""
+    <h3 style="text-align: center; margin-bottom: 5px;">
+    📄 Regulamento Nacional 2026
+    </h3>
+    """, unsafe_allow_html=True)
+
     st.link_button(
-        label = "RATBSB emenda 07",
+        label="RATBSB emenda 07",
         url="https://arquivos.saebrasil.org.br/2026/BajaNacional/RATBSB_emenda_07.pdf",
         use_container_width=True,
     )
+
     st.markdown("---")
 
-    st.write("### 🌐 Resultados Baja SAE Brasil")
+    # --- RESULTADOS ---
+    st.markdown("""
+    <h3 style="text-align: center; margin-bottom: 5px;">
+    🌐 Resultados Baja SAE Brasil
+    </h3>
+    """, unsafe_allow_html=True)
+
     st.link_button(
-        label = "Ver Resultados",
+        label="Ver Resultados",
         url="https://resultados.bajasaebrasil.net/",
         use_container_width=True,
     )
+
     st.markdown("---")
 
-    st.write("### 👨‍⚕️🚑🏥 Fila ICTS")
+    # --- FILA ICTS ---
+    st.markdown("""
+    <h3 style="text-align: center; margin-bottom: 5px;">
+    👨‍⚕️🚑🏥 Fila ICTS
+    </h3>
+    """, unsafe_allow_html=True)
+
     st.link_button(
-        label = "Ver Fila",
+        label="Ver Fila",
         url="https://fila.bajasaebrasil.net/fila.php?evento=26BR&fila=2",
         use_container_width=True,
     )
+
     st.markdown("---")
 
-    st.write("### 📍 Localização do Hotel")
+    # --- LOCALIZAÇÃO ---
+    st.markdown("""
+    <h3 style="text-align: center; margin-bottom: 5px;">
+    📍 Localização do Hotel
+    </h3>
+    """, unsafe_allow_html=True)
+
     st.link_button(
-        label = "Ver no Google Maps",
-        url="https://maps.google.com/maps/place/Plaza+Hotel+São+Jose+dos+Campos+SJC/data=!4m2!3m1!1s0x0:0x8b32f9c1a59984a1?sa=X&ved=1t:2428&ictx=111", # Certifique-se de que este link está correto
+        label="Ver no Google Maps",
+        url="https://maps.google.com/maps/place/Plaza+Hotel+São+Jose+dos+Campos+SJC/data=!4m2!3m1!1s0x0:0x8b32f9c1a59984a1?sa=X&ved=1t:2428&ictx=111",
         use_container_width=True,
     )
+
     st.markdown("---")
 
     # --- DRIVE ---
-    st.write("### 📁 Drive da equipe")
+    st.markdown("""
+    <h3 style="text-align: center; margin-bottom: 5px;">
+    📁 Drive da equipe
+    </h3>
+    """, unsafe_allow_html=True)
+
     st.link_button(
-        label = "Drive",
+        label="Drive",
         url="https://drive.google.com/drive/u/2/folders/0AN6vqF3uDEnpUk9PVA",
         use_container_width=True,
     )
+
     st.markdown("---")
 
     # --- GITHUB ---
-    st.write("### ⚡Github da elétrica Capibaja")
+    st.markdown("""
+    <h3 style="text-align: center; margin-bottom: 5px;">
+    ⚡ Github da elétrica Capibaja
+    </h3>
+    """, unsafe_allow_html=True)
+
     st.link_button(
-        label = "Git da Equipe",
+        label="Git da Equipe",
         url="https://github.com/Capibaja",
         use_container_width=True,
     )
+
     st.markdown("---")
 
-    # --- EXCEL BAJA ---
-    st.write("### 📊Excel Baja")
+    # --- EXCEL ---
+    st.markdown("""
+    <h3 style="text-align: center; margin-bottom: 5px;">
+    📊 Excel Baja
+    </h3>
+    """, unsafe_allow_html=True)
+
     st.link_button(
-        label = "excel",
+        label="Excel",
         url="https://excelbaja.streamlit.app/",
         use_container_width=True,
     )
-    st.subheader("🛠️ Como Usar:")
-    st.write("1. Jogar a planilha de dados LoRa ao entrar no site.")
-    st.write("2. Selecionar o tipo de gráfico desejado.")
-    st.write("3. Selecionar as variáveis no eixo X e eixo Y.")
-    st.write("4. Clique em 'Gerar Gráfico'.")
-    st.write("5. Baixe o html do gráfico para deixar salvo.")
-    st.markdown("---")
 
-    # --- DOWNLOAD EXECUTÁVEL ---
-    st.write("### 📥 Versão de Telemetria (Executável)")
+    st.markdown("""
+    <h4 style="text-align: center; margin-top: 15px;">
+    🛠️ Como Usar:
+    </h4>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <p style="text-align: center;">
+    1. Jogar a planilha de dados LoRa ao entrar no site.<br>
+    2. Selecionar o tipo de gráfico desejado.<br>
+    3. Selecionar as variáveis no eixo X e eixo Y.<br>
+    4. Clique em 'Gerar Gráfico'.<br>
+    5. Baixe o html do gráfico para deixar salvo.
+    </p>
+    """, unsafe_allow_html=True)
+
+    st.markdown("---")
     link_do_drive = "https://drive.google.com/file/d/1FBRJhkp5cuMBoaAkVPEDiBnyB6nfp1VL/view?usp=drive_link"
 
     st.link_button(
-        label="🚀 Baixar Monitor Serial (.exe)",
-        url=link_do_drive,
-        use_container_width=True,
-        help="Clique para ser redirecionado ao download no Google Drive."
+    label="🚀 Baixar Monitor Serial (.exe)",
+    url=link_do_drive,
+    use_container_width=True,
+    help="Clique para ser redirecionado ao download no Google Drive."
     )
-    st.subheader("🛠️ Como instalar:")
-    st.write("1. Clique no botão acima e baixe o arquivo.")
-    st.write("2. Se o Windows avisar que o arquivo é 'inseguro', clique em **Mais informações** e **Executar assim mesmo**.")
-    st.markdown("---")
+
+    st.markdown("""
+    <h4 style="text-align: center; margin-top: 15px;">
+    🛠️ Como Instalar:
+    </h4>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <p style="text-align: center;">
+    1. Clique no botão acima e baixe o arquivo.<br>
+    2. Se o Windows avisar que o arquivo é 'inseguro', clique em **Mais informações** e **Executar assim mesmo**.<br>
+    """, unsafe_allow_html=True)
 
 # Deixamos a lateral direita vazia
 with col_lateral_dir:
