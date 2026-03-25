@@ -254,7 +254,7 @@ with col_lateral_dir:
 
     # Staff – Amarelo Bebê
     st.markdown("""
-    <div style="border-right: 5px solid #FFFACD; padding-right: 15px; margin-bottom: 15px; text-align: right;">
+    <div style="border-right: 5px solid #FFEE8C; padding-right: 15px; margin-bottom: 15px; text-align: right;">
         <h3>Staff</h3>
         <p> Camiseta: Amarelo Bebê</p>
     </div>
