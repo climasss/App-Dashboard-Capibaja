@@ -270,7 +270,7 @@ with col_lateral_dir:
 
     # Imprensa – Laranja
     st.markdown("""
-    <div style="border-right: 5px solid ##FF5C00; padding-right: 15px; margin-bottom: 15px; text-align: right;">
+    <div style="border-right: 5px solid #FF5C00; padding-right: 15px; margin-bottom: 15px; text-align: right;">
         <h3>Imprensa</h3>
         <p>• Colete: Laranja</p>
     </div>
