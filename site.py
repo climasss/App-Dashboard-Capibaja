@@ -224,7 +224,7 @@ with col_lateral_dir:
     st.markdown("""
     <div style="border-right: 5px solid #4169E1; padding-right: 15px; margin-bottom: 15px; text-align: right;">
         <h3>Comitê Técnico</h3>
-        <p>Camiseta: Azul Royal</p>
+        <p> Camiseta: Azul Royal</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -232,7 +232,7 @@ with col_lateral_dir:
     st.markdown("""
     <div style="border-right: 5px solid #FFD700; padding-right: 15px; margin-bottom: 15px; text-align: right;">
         <h3>Juiz</h3>
-        <p>Camiseta: Amarelo Ouro</p>
+        <p> Camiseta: Amarelo Ouro</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -240,7 +240,7 @@ with col_lateral_dir:
     st.markdown("""
     <div style="border-right: 5px solid #009B3A; padding-right: 15px; margin-bottom: 15px; text-align: right;">
         <h3>Assessor Técnico</h3>
-        <p>Camiseta: Verde Bandeira</p>
+        <p> Camiseta: Verde Bandeira</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -248,7 +248,7 @@ with col_lateral_dir:
     st.markdown("""
     <div style="border-right: 5px solid #FF69B4; padding-right: 15px; margin-bottom: 15px; text-align: right;">
         <h3>Comissão</h3>
-        <p>• Camiseta: Rosa (Verde no Enduro)</p>
+        <p> Camiseta: Rosa (Verde no Enduro)</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -256,7 +256,7 @@ with col_lateral_dir:
     st.markdown("""
     <div style="border-right: 5px solid #FFFACD; padding-right: 15px; margin-bottom: 15px; text-align: right;">
         <h3>Staff</h3>
-        <p>Camiseta: Amarelo Bebê</p>
+        <p> Camiseta: Amarelo Bebê</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -264,7 +264,7 @@ with col_lateral_dir:
     st.markdown("""
     <div style="border-right: 5px solid #FF0000; padding-right: 15px; margin-bottom: 15px; text-align: right;">
         <h3>Segurança</h3>
-        <p>Camiseta: Vermelho</p>
+        <p> Camiseta: Vermelho</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -272,7 +272,7 @@ with col_lateral_dir:
     st.markdown("""
     <div style="border-right: 5px solid #FF5C00; padding-right: 15px; margin-bottom: 15px; text-align: right;">
         <h3>Imprensa</h3>
-        <p>Colete: Laranja</p>
+        <p> Colete: Laranja</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -280,6 +280,6 @@ with col_lateral_dir:
     st.markdown("""
     <div style="border-right: 5px solid #8B0000; padding-right: 15px; margin-bottom: 15px; text-align: right;">
         <h3>Apoio de pista</h3>
-        <p>Colete: Vermelho</p>
+        <p> Colete: Vermelho</p>
     </div>
     """, unsafe_allow_html=True)
