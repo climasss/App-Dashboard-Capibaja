@@ -9,11 +9,64 @@ col_lateral_esq, col_central, col_lateral_dir = st.columns([4, 4, 4])
 
 # Deixamos a lateral esquerda vazia
 with col_lateral_esq:
-    st.empty()
+    st.markdown('<h1 style="text-align: center;">Cronograma</h1>', unsafe_allow_html=True)
+
+    # Quarta
+    st.markdown("""
+    <div style="border-left: 5px solid #4CAF50; padding-left: 15px; margin-bottom: 20px;">
+        <h3>Quarta – 25 de Março de 2026</h3>
+        <p>• Credenciamento – 08:00 às 17:30</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Quinta
+    st.markdown("""
+    <div style="border-left: 5px solid #2196F3; padding-left: 15px; margin-bottom: 20px;">
+        <h3>Quinta – 26 de Março de 2026</h3>
+        <p>• Inspeção de Conformidade Técnica e Segurança – 08:00 às 18:00</p>
+        <p>• Apresentação de Projeto Dinâmico / Segurança Dinâmica – 09:00 às 18:00</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Sexta
+    st.markdown("""
+    <div style="border-left: 5px solid #9C27B0; padding-left: 15px; margin-bottom: 20px;">
+        <h3>Sexta – 27 de Março de 2026</h3>
+        <p>• Inspeção de Conformidade Técnica e Segurança – 08:00 às 18:00</p>
+        <p>• Apresentação de Projeto Dinâmico / Segurança Dinâmica – 08:00 às 18:00</p>
+        <p>• Apresentação de Projeto Núcleo Técnico – 08:00 às 16:20</p>
+        <p>• Apresentação de Projeto Núcleo de Negócios – 08:00 às 15:45</p>
+        <p>• Feedback de Projeto – 17:00 às 18:00</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Sábado
+    st.markdown("""
+    <div style="border-left: 5px solid #FF9800; padding-left: 15px; margin-bottom: 20px;">
+        <h3>Sábado – 28 de Março de 2026</h3>
+        <p>• Inspeção de Conformidade Técnica e Segurança – 08:00 às 13:00</p>
+        <p>• Apresentação de Projeto Dinâmico / Segurança Dinâmica – 08:00 às 14:00</p>
+        <p>• Finais de Projeto – 08:00 às 09:30</p>
+        <p>• Dinâmicas Janela Aberta – 10:00 às 14:00</p>
+        <p>• Super Prime – 15:00 às 17:30</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Domingo
+    st.markdown("""
+    <div style="border-left: 5px solid #F44336; padding-left: 15px; margin-bottom: 20px;">
+        <h3>Domingo – 29 de Março de 2026</h3>
+        <p>• Reconhecimento de pista somente com os pilotos – 08:00 às 08:30</p>
+        <p>• Formação do GRID – 09:10 às 09:40</p>
+        <p>• Vide janelas no site de pontuação!!</p>
+        <p>• Enduro de Resistência – 10:00 às 14:00</p>
+        <p>• Premiação – 15:00 às 16:30</p>
+    </div>
+    """, unsafe_allow_html=True)
 
 # --- CONTEÚDO CENTRAL ---
 with col_central:
-    st.title("Hub de informações Nacional 2026 - CapiBaja")
+    st.markdown('<h1 style="text-align: center;">Hub de informações Nacional 2026 - CapiBaja</h1>', unsafe_allow_html=True)
     st.markdown("---")
 
     # --- REGULAMENTO ---
@@ -83,7 +136,7 @@ with col_central:
     st.markdown("---")
 
     # --- DOWNLOAD EXECUTÁVEL ---
-    st.write("### 📥 Dashboard Telemetria (Executável)")
+    st.write("### 📥 Versão de Telemetria (Executável)")
     link_do_drive = "https://drive.google.com/file/d/1FBRJhkp5cuMBoaAkVPEDiBnyB6nfp1VL/view?usp=drive_link"
 
     st.link_button(
@@ -99,4 +152,68 @@ with col_central:
 
 # Deixamos a lateral direita vazia
 with col_lateral_dir:
-    st.empty()
+    st.markdown('<h1 style="text-align: center;">Voluntários</h1>', unsafe_allow_html=True)
+
+    # Comitê Técnico – Azul Royal
+    st.markdown("""
+    <div style="border-right: 5px solid #4169E1; padding-right: 15px; margin-bottom: 15px; text-align: right;">
+        <h3>Comitê Técnico</h3>
+        <p>• Camiseta: Azul Royal</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Juiz – Amarelo Ouro
+    st.markdown("""
+    <div style="border-right: 5px solid #FFD700; padding-right: 15px; margin-bottom: 15px; text-align: right;">
+        <h3>Juiz</h3>
+        <p>• Camiseta: Amarelo Ouro</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Assessor técnico – Verde Bandeira
+    st.markdown("""
+    <div style="border-right: 5px solid #009B3A; padding-right: 15px; margin-bottom: 15px; text-align: right;">
+        <h3>Assessor Técnico</h3>
+        <p>• Camiseta: Verde Bandeira</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Comissão – Rosa
+    st.markdown("""
+    <div style="border-right: 5px solid #FF69B4; padding-right: 15px; margin-bottom: 15px; text-align: right;">
+        <h3>Comissão</h3>
+        <p>• Camiseta: Rosa (Verde no Enduro)</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Staff – Amarelo Bebê
+    st.markdown("""
+    <div style="border-right: 5px solid #FFFACD; padding-right: 15px; margin-bottom: 15px; text-align: right;">
+        <h3>Staff</h3>
+        <p>• Camiseta: Amarelo Bebê</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Segurança – Vermelho
+    st.markdown("""
+    <div style="border-right: 5px solid #FF0000; padding-right: 15px; margin-bottom: 15px; text-align: right;">
+        <h3>Segurança</h3>
+        <p>• Camiseta: Vermelho</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Imprensa – Laranja
+    st.markdown("""
+    <div style="border-right: 5px solid #FFA500; padding-right: 15px; margin-bottom: 15px; text-align: right;">
+        <h3>Imprensa</h3>
+        <p>• Colete: Laranja</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Apoio de pista – Vermelho (tom mais escuro)
+    st.markdown("""
+    <div style="border-right: 5px solid #8B0000; padding-right: 15px; margin-bottom: 15px; text-align: right;">
+        <h3>Apoio de pista</h3>
+        <p>• Colete: Vermelho</p>
+    </div>
+    """, unsafe_allow_html=True)
