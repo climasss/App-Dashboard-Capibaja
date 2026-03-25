@@ -190,7 +190,13 @@ with col_central:
 
     st.markdown("---")
     link_do_drive = "https://drive.google.com/file/d/1FBRJhkp5cuMBoaAkVPEDiBnyB6nfp1VL/view?usp=drive_link"
-
+    
+    st.markdown("""
+    <h3 style="text-align: center; margin-bottom: 5px;">
+    📊 Dashboard Telemetria
+    </h3>
+    """, unsafe_allow_html=True)
+    
     st.link_button(
     label="🚀 Baixar Monitor Serial (.exe)",
     url=link_do_drive,
